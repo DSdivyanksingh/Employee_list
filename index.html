@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Employee Page
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="container">
+        <div class="header">
+            <h2>Employee lists*</h2>
+        </div>
+        <div class="form">
+        <form class="form_start" onsubmit="event.preventDefault();onFormSubmit();">
+            <div class="form_structure">
+                <label>Name*</label>
+                <input id="name" class="names" name="name" type="text" placeholder="Enter your name">
+            </div>
+            <div class="form_structure">
+                <label>Mobile No.*</label>
+                <input id="mobile" class="mobiles" name="mobile" type="number" placeholder="Enter your NO.">
+            </div>
+            <div class="form_structure">
+                <label>Email ID*</label>
+                <input id="email" class="emails" name="email" type="email" placeholder="Enter your email">
+            </div>
+            <div class="form_structure">
+                <input type="Submit" value="Add">
+            </div>
+        </form>
+        </div>   
+            <div class="table">
+                <table id="employeeList">
+                    <tbody class="tbody">
+
+                    </tbody>
+                </table>
+            </div>
+        
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

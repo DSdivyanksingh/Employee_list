@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(165, 163, 163);
+}
+.main_container{
+    width: 100%;
+    height: 1000px;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 600px;
+    
+}
+.header{
+    background-color: aliceblue;
+    text-align: left;
+    color: blue;
+    width: 645px;
+    height: 60px;
+    padding-top: 0.1px
+}
+.form{
+    width: 645px;
+    height: 400px;
+    font-size: 32px;
+    background-color: aliceblue;
+    margin-top: 5px;
+}
+.form input{
+    font-size: large;
+}
+
+.form_start{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.form_structure{
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.tbody tr{
+    background-color: aliceblue;
+}
